@@ -8,7 +8,7 @@ while True:
     print('Take a guess.')
     guess = int(input())
     
-    if guess < 5:
+    if guess < secretNumber:
         print('Your guess is too low.')
     elif guess > secretNumber:
         print('Your guess is too high.')
